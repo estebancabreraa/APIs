@@ -1,4 +1,5 @@
 <?php
+  header('Access-Control-Allow-Origin: *');
   $data = array();
   $username = sanitize_text_field($_POST['username']);
 
